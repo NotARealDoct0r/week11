@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- specifying title + referencing the css file-->
+    <title>Tic-Tac-Toe game</title>
+    <link rel="stylesheet" href="wk11 hw assignment.css" />
+  </head>
+
+  <body>
+    <!-- created a div with a unique id -->
+    <div id="gameContainer">
+      <!-- created a heading -->
+      <h1>Tic-Tac-Toe</h1>
+      <!-- created a 3x3 grid -->
+      <div id="cellContainer">
+        <div cellindex="0" class="cell"></div>
+        <div cellindex="1" class="cell"></div>
+        <div cellindex="2" class="cell"></div>
+        <div cellindex="3" class="cell"></div>
+        <div cellindex="4" class="cell"></div>
+        <div cellindex="5" class="cell"></div>
+        <div cellindex="6" class="cell"></div>
+        <div cellindex="7" class="cell"></div>
+        <div cellindex="8" class="cell"></div>
+      </div>
+
+      <!-- says x or o's turn --> 
+      <h2 id="statusText"></h2>
+      <!-- button - clear grid + restart -->
+      <button id="restartBtn">Restart</button>
+    </div>
+    <script src="wk11 hw assignment.js"></script>
+      
+  </body>
+</html>

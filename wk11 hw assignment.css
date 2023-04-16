@@ -1,0 +1,24 @@
+/* customizing each 9 cells + added 'cursor' */
+.cell {
+  background: #444;
+  border: 2px solid #555;
+  width: 100px; 
+  height: 100px;
+  font-size: 100px;
+  color: #AAA;
+  cursor: pointer;
+}
+
+/* centered text */
+#gameContainer {
+    text-align: center;
+  }
+
+/* set the display/view as a grid + set 'pairs' of 3 with auto spacing/margins */
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
